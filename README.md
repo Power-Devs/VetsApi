@@ -1,3 +1,3 @@
 #Vets Api
 
-Uma api rest que provê informações ao VetsApp
+Uma api rest que provê informações ao VetsApp.
