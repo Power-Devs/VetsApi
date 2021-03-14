@@ -8,10 +8,10 @@ Uma api rest que provê informações ao VetsApp.
 ## Como rodar
 É nessário ter a JDK 11 instalado para rodar a aplicação.
 
-Abra o console dentro da pasta raíz do projeto e insira o comando a seguir.
+Abra o console dentro da pasta raíz do projeto e insira o comando a seguir:
 
 ```bash
-mvn spring-boot:run
+mvnw spring-boot:run
  ```
 
 ## Tecnologias
