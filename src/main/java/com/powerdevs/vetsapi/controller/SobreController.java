@@ -6,5 +6,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SobreController {
     @GetMapping("/sobre")
-    public String sobreVets(){return "Vets é o bicho";}
+    public String sobreVets(){return "Uma api rest que provê informações ao VetsApp";}
 }
