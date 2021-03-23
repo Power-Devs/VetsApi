@@ -11,7 +11,7 @@
 	<groupId>com.powerdevs</groupId>
 	<artifactId>vetsapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vetsapi</name>
+	<name>Vets Api</name>
 	<description>Api for vetsApp that provides </description>
 	<properties>
 		<java.version>11</java.version>

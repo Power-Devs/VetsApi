@@ -55,4 +55,19 @@ public class SobreControllerTest {
 
     }
 
+
+    @Test
+    public void testaIdVazio() throws URISyntaxException {
+
+        uri = new URI("/details");
+
+        try{
+            mockMVC.perform(MockMvcRequestBuilders.get(uri))
+                    .andExpect(MockMvcResultMatchers.status().is(400));
+        }catch (Exception e){
+            Assert.assertNotNull(e);
+        }
+    }
+
+
 }
