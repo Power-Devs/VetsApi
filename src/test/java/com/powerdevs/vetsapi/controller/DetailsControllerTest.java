@@ -18,7 +18,7 @@ import java.net.URISyntaxException;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class SobreControllerTest {
+public class DetailsControllerTest {
 
     @Autowired
     private MockMvc mockMVC;
