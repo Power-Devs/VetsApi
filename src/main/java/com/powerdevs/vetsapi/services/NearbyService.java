@@ -5,6 +5,7 @@ import com.google.maps.NearbySearchRequest;
 import com.google.maps.model.LatLng;
 import com.google.maps.model.PlaceType;
 import com.google.maps.model.PlacesSearchResult;
+import com.powerdevs.vetsapi.entity.Location;
 
 public class NearbyService {
     GeoApiContext context = new GooglePlacesServices().connexao();
@@ -16,10 +17,11 @@ public class NearbyService {
     }
 
     public PlacesSearchResult[] search() throws Exception {
+        System.out.println(""+local.latitude +" "+local.longitude +" "+local.raio);
         nearbySearchByLocation = new NearbySearchRequest(new GooglePlacesServices().connexao())
-                .location(new LatLng(-23.659847, -46.769564))
+                .location(new LatLng(local.latitude, local.longitude))
                 .type(PlaceType.VETERINARY_CARE)
-                .radius(800);
+                .radius(local.raio);
 
         return nearbySearchByLocation.await().results;
     }
