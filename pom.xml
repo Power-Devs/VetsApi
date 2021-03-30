@@ -11,7 +11,7 @@
 	<groupId>com.powerdevs</groupId>
 	<artifactId>vetsapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vetsapi</name>
+	<name>Vets Api</name>
 	<description>Api for vetsApp that provides </description>
 	<properties>
 		<java.version>11</java.version>
@@ -38,12 +38,12 @@
 			<artifactId>google-maps-services</artifactId>
 			<version>0.18.0</version>
 		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>1.7.25</version>
-		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>

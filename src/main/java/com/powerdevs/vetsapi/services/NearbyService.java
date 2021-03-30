@@ -10,10 +10,10 @@ import com.powerdevs.vetsapi.entity.Location;
 public class NearbyService {
     GeoApiContext context = new GooglePlacesServices().connexao();
     NearbySearchRequest nearbySearchByLocation;
-    Location local;
+//    Location local;
 
-    public NearbyService(Location location) {
-        this.local = location;
+    public NearbyService() {
+//        this.local = location;
     }
 
     public PlacesSearchResult[] search() throws Exception {
