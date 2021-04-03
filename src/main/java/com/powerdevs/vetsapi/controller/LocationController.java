@@ -2,7 +2,6 @@ package com.powerdevs.vetsapi.controller;
 
 import java.io.Serializable;
 
-import com.google.maps.model.PlacesSearchResult;
 import com.powerdevs.vetsapi.entity.Location;
 import com.powerdevs.vetsapi.services.NearbyService;
 
@@ -19,7 +18,7 @@ public class LocationController {
         NearbyService Localiza = new NearbyService(local);
 
         try{
-           return Localiza.search();            
+           return Localiza.search();
         } catch (Exception e) {
             return e.getMessage();
         }

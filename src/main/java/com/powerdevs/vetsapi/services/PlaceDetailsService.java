@@ -7,12 +7,10 @@ import com.google.maps.model.PlaceDetails;
 import java.io.IOException;
 
 public class PlaceDetailsService {
-    private String id;
     PlaceDetailsRequest places = new PlaceDetailsRequest(new GooglePlacesServices().connexao());
 
     public PlaceDetailsService(String id) {
-        this.id = id;
-         places.placeId(id).language("pt-BR");
+        places.placeId(id).language("pt-BR");
     }
 
     public PlaceDetails details() throws InterruptedException, ApiException, IOException {
