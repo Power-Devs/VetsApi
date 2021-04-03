@@ -8,7 +8,6 @@ public class VetsapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(VetsapiApplication.class, args);
-		System.out.println("-------o sistema Subiu---------");
+		System.out.println("-------------------------------- O sistema foi carregado --------------------------------");
 	}
-
 }
