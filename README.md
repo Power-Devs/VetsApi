@@ -10,8 +10,7 @@ Uma api rest que provê informações ao VetsApp.
 
 Abra o console dentro da pasta raíz do projeto e insira o comando a seguir:
 
----
-## Rotas
+
 ```bash
 mvnw spring-boot:run
  ```
@@ -22,6 +21,9 @@ e está aberta aguardando uma requisição.
 ```bash
 "-------------------------------- O sistema foi carregado --------------------------------"
 ```
+
+---
+## Rotas
 
 Agora acesse localhost:8080/ para acessar os recursos da Api. 
 
