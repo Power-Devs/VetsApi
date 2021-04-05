@@ -23,5 +23,4 @@ public class LocationController {
             return e.getMessage();
         }
         }
-   // public String locationVets(@RequestBody Location local){return ""+local.latitude +" "+local.longitude +" "+local.raio;}
 }
