@@ -6,7 +6,7 @@ Uma api rest que provê informações ao VetsApp.
 - JDK 11
 
 ## Como rodar
-É nessário ter a JDK 11 ou JRE instalado para rodar a aplicação.
+É necessário ter a JDK 11 ou JRE instalado para rodar a aplicação.
 
 Abra o console dentro da pasta raíz do projeto e insira o comando a seguir:
 
