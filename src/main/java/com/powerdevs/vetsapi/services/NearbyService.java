@@ -17,7 +17,7 @@ public class NearbyService {
     }
     public PlacesSearchResult[] search() throws Exception {
 
-        nearbySearchByLocation = new NearbySearchRequest(new GooglePlacesServices().connexao())
+        nearbySearchByLocation = new NearbySearchRequest(context)
                 .location(new LatLng(local.latitude, local.longitude))
                 .type(PlaceType.VETERINARY_CARE)
                 .radius(local.raio);
