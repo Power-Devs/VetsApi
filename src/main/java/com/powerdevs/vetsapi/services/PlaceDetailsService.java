@@ -17,17 +17,3 @@ public class PlaceDetailsService {
         return places.await();
     }
 }
-
-/*
-    Seria interessante retornar:
-
-    formattedAddress
-    formattedPhoneNumber
-    name
-    openingHours
-    userRatingsTotal
-    rating
-    reviews
-    vicinity
-    website
- */
