@@ -12,7 +12,7 @@
 	<artifactId>vetsapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Vets Api</name>
-	<description>Api for vetsApp that provides </description>
+	<description>Api for vetsApp that provides nearby veterinary clinics info</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -43,6 +43,13 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-gcp-dependencies</artifactId>
+			<version>1.2.8.RELEASE</version>
+			<type>pom</type>
+			<scope>import</scope>
+		</dependency>
 
     </dependencies>
 
