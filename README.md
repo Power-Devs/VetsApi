@@ -3,7 +3,7 @@
 Uma api rest que provê informações ao VetsApp.
 
 ## Requisitos
-- JDK 11
+- JDK 8
 
 ## Como rodar
 É necessário ter a JDK 11 ou JRE instalado para rodar a aplicação.
