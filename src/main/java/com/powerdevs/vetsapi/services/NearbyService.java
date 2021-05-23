@@ -21,8 +21,8 @@ public class NearbyService {
                 .location(new LatLng(local.latitude, local.longitude))
                 .type(PlaceType.VETERINARY_CARE)
                 .radius(local.raio);
-
-        return nearbySearchByLocation.await().results;
+    PlacesSearchResult[] resultados = nearbySearchByLocation.await().results;
+        return resultados;
     }
 
 }

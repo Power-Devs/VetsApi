@@ -44,6 +44,15 @@ e será retornado uma array de objetos JSON com as clínicas mais próximas.
     "raio": 8000
 }
 ```
+Também é possível acessar via query params, com os parâmetros lat, lng ou raio. 
+
+Caso o raio não seja informado será utilizado o valor padrão de 8000.
+
+Exemplo caso esteja rodando localmente:
+
+```
+localhost/location?lat=-23.7075796&lng=-46.7951825&raio=8000
+```
 
 Exemplo de resposta:
 ```JSON

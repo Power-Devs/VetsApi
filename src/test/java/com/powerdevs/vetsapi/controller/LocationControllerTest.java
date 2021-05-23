@@ -37,7 +37,7 @@ public class LocationControllerTest {
     }
 
     @Test
-    public void testaRota() throws Exception {
+    public void testaSeRotaEstaOnline() throws Exception {
         mockMVC.perform(MockMvcRequestBuilders
                 .get(uri)
                 .contentType(MediaType.APPLICATION_JSON)
