@@ -311,3 +311,5 @@ Exemplo de resposta:
 - Testes Unitários (MockMVC e Junit 4)  
 - Google Cloud Platform
 - Maps/Places API
+- Herokku (Cloud Deploy/CI)
+- CORS
