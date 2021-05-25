@@ -15,7 +15,6 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import java.net.URI;
 
-import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -28,20 +27,17 @@ public class LocationControllerTest {
     URI uri;
 
     Location local = new Location(-23.7075796,-46.7951825,8000);
-    String requestBody = local.toJSON();
 
     @Before
     public void before() throws Exception{
         uri = new URI("/location");
 
     }
-
+    //TODO: teste quebrado pelo CORS
     @Test
     public void testaSeRotaEstaOnline() throws Exception {
         mockMVC.perform(MockMvcRequestBuilders
-                .get(uri)
-                .contentType(MediaType.APPLICATION_JSON)
-                .content(requestBody))
+                .get(uri))
                 .andExpect(MockMvcResultMatchers.status().isOk());
     }
 
