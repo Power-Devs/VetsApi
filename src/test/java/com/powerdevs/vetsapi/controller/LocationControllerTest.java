@@ -33,7 +33,7 @@ public class LocationControllerTest {
         uri = new URI("/location");
 
     }
-    //TODO: teste quebrado pelo CORS
+    //TODO: teste quebrado pela implementação do CORS
     @Test
     public void testaSeRotaEstaOnline() throws Exception {
         mockMVC.perform(MockMvcRequestBuilders
