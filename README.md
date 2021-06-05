@@ -310,6 +310,8 @@ Exemplo de resposta:
 - Maven
 - Testes Unitários (MockMVC e Junit 4)  
 - Google Cloud Platform
-- Maps/Places API
+ - Google Nearby Search
+ - Google Places Details
+- Google Cloud Platform
 - Herokku (Cloud Deploy/CI)
 - CORS
